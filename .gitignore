@@ -1,0 +1,28 @@
+# Archivos de configuración con contraseñas o claves API
+*.env
+config/*.json
+config/*.yml
+
+# Configuraciones locales del IDE
+.vscode/
+.idea/
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.bak
+
+# Binarios y compilados
+*.class
+*.exe
+*.dll
+*.o
+*.so
+
+# Directorios de dependencias
+node_modules/
+vendor/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
