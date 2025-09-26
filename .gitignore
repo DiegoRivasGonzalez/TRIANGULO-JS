@@ -19,10 +19,3 @@ config/*.yml
 *.o
 *.so
 
-# Directorios de dependencias
-node_modules/
-vendor/
-
-# Archivos del sistema
-.DS_Store
-Thumbs.db
