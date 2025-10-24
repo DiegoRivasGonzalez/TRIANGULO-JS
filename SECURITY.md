@@ -13,7 +13,7 @@ Para mantener la seguridad del proyecto y de sus usuarios, los informes deben en
 
 **Pasos a seguir:**
 
-1. Envía un correo electrónico con los detalles a **[tuncorreo@email.com]**.  
+1. Envía un correo electrónico con los detalles a tu correo.  
 2. Incluye en tu mensaje:
    - Una descripción clara del problema detectado.  
    - Pasos concretos para reproducir el error o vulnerabilidad.  
