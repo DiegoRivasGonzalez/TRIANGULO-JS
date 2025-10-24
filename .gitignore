@@ -1,21 +1,47 @@
-# Archivos de configuración con contraseñas o claves API
-*.env
+# === Archivos de configuración sensibles ===
+.env
+*.env.local
+config/*.yaml
 config/*.json
-config/*.yml
+config/*.ini
 
-# Configuraciones locales del IDE
-.vscode/
-.idea/
+# === Credenciales y contraseñas ===
+secrets/
+*.key
+*.pem
+*.crt
 
-# Archivos temporales y logs
+# === Archivos temporales ===
 *.log
 *.tmp
+*.cache
 *.bak
+*.swp
 
-# Binarios y compilados
-*.class
-*.exe
-*.dll
-*.o
-*.so
+# === Archivos del sistema y del editor ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
 
+# === Dependencias y binarios ===
+/vendor/
+/node_modules/
+/target/
+/dist/
+/build/
+/bin/
+/obj/
+
+# === Archivos generados por el framework ===
+/var/
+/storage/
+/coverage/
+/composer.lock
+package-lock.json
+yarn.lock
+
+# === Otros archivos personales ===
+*.local
+*.secret
